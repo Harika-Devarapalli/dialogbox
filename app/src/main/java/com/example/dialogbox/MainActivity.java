@@ -1,8 +1,6 @@
 package com.example.dialogbox;
-
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -21,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         var1=findViewById(R.id.name2);
         r1=findViewById(R.id.male);
         r2=findViewById(R.id.female);
@@ -54,5 +53,4 @@ public class MainActivity extends AppCompatActivity {
         alert = builder.create();
         alert.show();
     }
-
 }

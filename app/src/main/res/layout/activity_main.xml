@@ -8,6 +8,7 @@
         android:id="@+id/name2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="10dp"
         android:ems="10"
         android:hint="enter name"
         android:inputType="textPersonName" />
@@ -17,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Gender:"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:textSize="20sp" />
 
     <RadioGroup
@@ -28,13 +29,15 @@
             android:id="@+id/male"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="male" />
+            android:textColor="@color/teal_200"
+            android:text="MALE" />
 
         <RadioButton
             android:id="@+id/female"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="female" />
+            android:textColor="@color/purple_200"
+            android:text="FEMALE" />
 
     </RadioGroup>
 
@@ -42,8 +45,8 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Language Known:"
-        android:textColor="#000000"
+        android:text="Language Known are:"
+        android:textColor="#673AB7"
         android:textSize="20sp" />
 
     <CheckBox
@@ -57,4 +60,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="telugu" />
+
 </LinearLayout>
